@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposive Flex</title
+        >
+        <style>
+            .container2{
+                display: flex;
+             flex-wrap: wrap;
+             gap: 10px;
+            }
+            .iteam{
+                width: 200px;
+                height: 100px;
+                background:chocolate ;
+                border: 2px solid tomato;
+                /* border-radius: 20px; */
+
+            }
+            .container{
+                display: flex;
+                gap: 20px;
+
+            }
+            .box{
+                background-color: cyan;
+                padding: 20px;
+                border-radius: 20px;
+            }
+            @media screen and (max-with: 576px) {
+                .container{
+                    display: flex;
+                }
+                
+            }
+        </style>
+</head>
+<body>
+    <h2> Flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>frist flexbox </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro ab dolore harum similique, commodi, sunt animi aliquid saepe itaque quisquam minus veniam! Dignissimos, quo eaque ea quis possimus dolorum.</p>
+        </div>
+        <div class="box">
+            <h3>frist flexbox </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro ab dolore harum similique, commodi, sunt animi aliquid saepe itaque quisquam minus veniam! Dignissimos, quo eaque ea quis possimus dolorum.</p>
+        </div>
+        
+        </div>
+    </div>
+    <div class="container2">
+        <div class="iteam">1</div>
+        <div class="iteam">2</div>
+        <div class="iteam">3</div>
+        <div class="iteam">4</div>
+        <div class="iteam">5</div>
+        <div class="iteam">6</div>
+        <div class="iteam">7</div>
+        <div class="iteam">8</div>
+        <div class="iteam">9</div>
+        <div class="iteam">10</div>
+    </div>
+</body>
+</html>
